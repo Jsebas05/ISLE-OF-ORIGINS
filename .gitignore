@@ -1,0 +1,66 @@
+# ---------------------------------------------
+# Unreal Engine 5 — ISLE OF ORIGINS
+# ---------------------------------------------
+
+# Carpetas generadas por el motor (se regeneran solas)
+Binaries/
+DerivedDataCache/
+Intermediate/
+Saved/
+Build/*
+!Build/**/*.ico
+
+# Plugins: ignorar solo sus carpetas generadas
+Plugins/**/Binaries/
+Plugins/**/Intermediate/
+
+# Archivos de IDE y solución (se regeneran con "Generate Project Files")
+.vs/
+.vscode/
+.idea/
+*.sln
+*.suo
+*.opensdf
+*.sdf
+*.VC.db
+*.VC.opendb
+*.xcodeproj
+*.xcworkspace
+
+# Compilación C++
+*.slo
+*.lo
+*.o
+*.obj
+*.pch
+*.gch
+*.so
+*.dylib
+*.dll
+*.lib
+*.a
+*.exe
+*.app
+*.ipa
+*.pdb
+*.ilk
+*.exp
+
+# Empaquetado y cooking
+*.pak
+*.ucas
+*.utoc
+Cooked/
+StagedBuilds/
+Packaged/
+
+# Archivos temporales del sistema
+.DS_Store
+Thumbs.db
+desktop.ini
+*.tmp
+*.log
+
+# Archivos de trabajo de herramientas externas (los exportables finales sí se suben)
+*.blend1
+*.blend2
